@@ -1,16 +1,16 @@
 # React Best Practices
 
-> 本文非原创，为原文的中文翻译版
+> :stars: 本文非原创，为原文的中文翻译版
 >
-> 原文地址：https://www.freecodecamp.org/news/best-practices-for-react/
+> :book: 原文地址：https://www.freecodecamp.org/news/best-practices-for-react/
 
-## Table of contents:
+## 目录:
 
-- [Three Major Challenges React Developers Face](https://www.freecodecamp.org/news/best-practices-for-react/#three-major-challenges-react-developers-face)
-- [Learn The Building Blocks of React](https://www.freecodecamp.org/news/best-practices-for-react/#learn-the-building-blocks-of-react)
-- [Learn How to Build Clean, Performant and Maintainable React Components](https://www.freecodecamp.org/news/best-practices-for-react/#learn-how-to-build-clean-performant-and-maintainable-react-components)
-- [Tips to Help You Write Better React Code – The Cherries on Top](https://www.freecodecamp.org/news/best-practices-for-react/#tips-to-help-you-write-better-react-code-the-cherries-on-top)
-- [Final Words](https://www.freecodecamp.org/news/best-practices-for-react/#final-words)
+- [React 开发者面临的三大挑战](#react-开发者面临的三大挑战)
+- [了解React的基础](#了解react的基础)
+- [Learn How to Build Clean, Performant and Maintainable React Components](#learn-how-to-build-clean-performant-and-maintainable-react-components)
+- [Tips to Help You Write Better React Code – The Cherries on Top](#tips-to-help-you-write-better-react-code-the-cherries-on-top)
+- [Final Words](#final-words)
 
 
 
@@ -18,11 +18,9 @@
 
 
 
-## Three Major Challenges React Developers Face
+## React 开发者面临的三大挑战
 
-
-
-### ⚙️ Maintainability（可维护性）
+### ⚙️ 可维护性
 
 这与可复用性息息相关。在应用程序和组件非常轻量的时候，它们很容易维护。但是，一旦需求开始增长，组件就会变得非常复杂，因此维护性较差。
 
@@ -38,5 +36,75 @@
 
 
 
-### 🧠 Solid Understanding of React（扎实理解React）
+### 🧠 扎实理解React
 
+React开发人员出现问题的另一个根本原因是对React如何在底层工作的基本理解不足。我也曾经这样。
+
+我见过很多人在没有坚实基础的情况下，过快地进入中级或高级概念。但这并不是React独有的。这是编程中的一个常见问题。
+
+对React没有扎实的理解也会给作为开发人员的您带来问题。我记得当我想使用不同的组件生命周期，但不知道如何实际使用它们时，我感到头疼。所以我不得不后退几步，深入探讨这个话题。
+
+因为我认为这是最重要的事情之一，所以我在下面的博客文章中专门用了整整一章来介绍它。
+
+### 📈 可扩展性
+
+这项挑战与*可维护性*息息相关。它不仅针对React，而是通常适用于软件开发中。
+
+我了解到，制作优秀的软件不仅仅是关于UX（用户体验）、干净的代码模式或聪明的架构。对我来说，软件的质量也会随着它的扩展能力而上升或下降。
+
+对我来说，有很多东西可以提高软件的可扩展性。你将在这篇文章中学习我最重要的技巧。
+
+我认为，当您在设计组件和组织项目结构时考虑到*可维护性*和*可扩展性*的话，您不太可能最终出现需要进行重大重构的混乱代码。
+
+# 如何学习React
+
+好了，现在让我们深入了解一些学习React的最佳实践。
+
+## 了解React的基础
+
+正如我们在上面简要讨论的那样，表明了基础不仅与学习React有关，也与其他技术或编程语言有关。你不能在沙质地基上建造摩天大楼，却期望它坚固。
+
+这对你们中的许多人来说可能是显而易见的，但我见过一些开发人员在没有真正理解基础知识的情况下就跳到了React的中级或高级概念中。
+
+一般来说，Javascript也是如此。我坚信，如果你在Vanilla Javascript（指原生JS）方面没有坚实的基础，那么学习React是没有意义的。
+
+所以，如果这听起来很熟悉，并且你正在考虑学习React，但对Vanilla Javascript还不太熟悉，那么先花点时间加强Javascript。这将在未来为你节省很多头痛和时间。
+
+如果你想复习的话，这是一个有用的指南：[top JavaScript concepts you need to know before diving into React](https://www.freecodecamp.org/news/top-javascript-concepts-to-know-before-learning-react/)
+
+但对我来说，仅仅了解基本知识是不够的，去了解React的底层原理是强制性的。如果你想成为一名优秀的React开发人员（我认为你是这样做的，因为你正在阅读这篇文章），你必须知道你正在使用的工具。这对作为开发人员的你和你的客户都是有益的。
+
+当然，你不可能无所不知，也不应该在这个话题上给自己施加压力。当你遇到实际问题并建立更多的项目时，你会学到越来越多的东西。但有了扎实的知识，你从一开始就全副武装。
+
+好吧，这很有道理。但你可能想知道，为了在React中打下坚实的基础，你到底需要知道什么？
+
+作为最低要求，您应该理解在官方的React文档中的[主要概念章节](https://reactjs.org/docs/hello-world.html)。
+
+你应该非常熟悉的另一章是关于[Hooks](https://reactjs.org/docs/hooks-intro.html)的那一章，因为它们已经成为一种惯例，并且被广泛使用，尤其是在第三方React包中。
+
+当然，你可能会更频繁地使用一些，比如`useState`和`useEffect`，但理解其他的，比如`useMemo`、`useCallback`或`useRef`也是必不可少的。
+
+还有另一章叫[“高级指南”](https://reactjs.org/docs/accessibility.html)，我一开始并不认为这是强制性的，但我强烈建议您在React之旅中掌握这些概念。
+
+和往常一样，当你已经有了一些实践经验时，通常更容易理解高级话题。但你越早了解这些事情越好。
+
+当然，你不应该局限于只关注React文档。通过一门涵盖这些基础知识的在线课程，观看教程或阅读其他博客文章，也是打下坚实基础的一部分。所以，测试一下什么最适合你。
+
+如果我不得不选择至少最重要的概念来了解，我会建议：
+
+- 什么是“状态”
+- 类组件和函数式组件的区别
+- 什么是组件重新渲染，它们是如何工作的？
+- 如何触发重新渲染？
+- 不同的组件生命周期以及如何与它们交互
+- Virtual DOM
+- CSR（客户端渲染）和SSR（服务器端渲染）一般来说在React中的优势
+- 受控组件和非受控组件
+- 状态提升
+- 至少一种全局状态管理技术（Context API、Redux/Toolkit、Recoil）
+- 组件模式（尤其是如何选择正确的模式）
+
+## 学习如何构建整洁、高性能和可维护的React组件
+
+我知道——这是每个程序员的梦想（或者至少我希望是这样）。
+对我来说，这种能力将好的程序员与出色的程序员区分开来。有趣的是，它从来没有真正完成，因为总会有一些需要学习和改进的东西。
