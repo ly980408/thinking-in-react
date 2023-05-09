@@ -8,7 +8,7 @@
 
 - [React 开发者面临的三大挑战](#react-开发者面临的三大挑战)
 - [了解React的基础](#了解react的基础)
-- [Learn How to Build Clean, Performant and Maintainable React Components](#learn-how-to-build-clean-performant-and-maintainable-react-components)
+- [学习如何构建整洁、高性能和可维护的React组件](#学习如何构建整洁、高性能和可维护的React组件)
 - [Tips to Help You Write Better React Code – The Cherries on Top](#tips-to-help-you-write-better-react-code-the-cherries-on-top)
 - [Final Words](#final-words)
 
@@ -108,3 +108,5 @@ React开发人员出现问题的另一个根本原因是对React如何在底层�
 
 我知道——这是每个程序员的梦想（或者至少我希望是这样）。
 对我来说，这种能力将好的程序员与出色的程序员区分开来。有趣的是，它从来没有真正完成，因为总会有一些需要学习和改进的东西。
+
+// WIP ...
